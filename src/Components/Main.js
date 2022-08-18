@@ -49,7 +49,7 @@ function Main() {
 
 
 
-      <h2>Learn how to use AireCoin</h2>
+      <h2>Learn how to use AireCoin </h2>
       <div className="main-heading-bottom">
       <Cards />
       <Cards />
