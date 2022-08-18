@@ -10,9 +10,9 @@ function Docs() {
                 <p>This page is an overview of the AireCoin documentation and related resources.</p>
                 <p>If you want to know what is ethereum, how it works, and what it can be used for, without going deep into the technical abyss, this guide is perfect for you.</p>
                 <h2>Quick start</h2>
-                <h3>More info on quick start</h3>
+                <h3>More info on quick start </h3>
                 <p>To interact with a Aire cluster, we will use its command-line interface, also known as the ultimate CLI. We use the command-line because it is the first place the AireCoin core team deploys new functionality. The command-line interface is not necessarily the easiest to use, but it provides the most direct, flexible, and secure access to your Solana accounts.</p>
-                <h3>This is the second heading</h3>
+                <h3>This is the second heading </h3>
                 </>
                 <>
                 <h2>Nodes</h2>
