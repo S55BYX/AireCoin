@@ -8,6 +8,7 @@
 .main-heading{
     margin-bottom: 5rem;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -42,7 +43,10 @@
 .main-heading-bottom{
     margin-bottom: 5rem;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .container{
@@ -51,6 +55,19 @@
     margin-bottom: 10rem;
     margin-top: 7rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem;
 }
+
+@media only screen and (max-width: 680px) {
+    .main-heading-right>img {
+        margin-top: 80px;
+        max-width: 13rem;
+        margin-left: auto;
+  margin-right: auto;
+    }
+    .main-heading-bottom{
+        font-size: 0.8em;
+    }
+  }
