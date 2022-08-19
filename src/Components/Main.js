@@ -12,7 +12,7 @@ function Main() {
             The future of the web3 built on{" "}
             <span className="colored">#AireCoin</span>.
           </h1>
-          <p>By devs for devs</p>
+          <p>By devs for devs 🚀</p>
           <Link to="/Docs">
 
           <button>Start Building</button>

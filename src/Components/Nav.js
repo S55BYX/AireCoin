@@ -17,7 +17,7 @@ function Nav() {
           <Link to="/NFT">NFT</Link>
         </li>
         <li>
-          <Link to="/collections">Collections</Link>
+          <Link to="/docs">Documentation</Link>
         </li>
         <li>
           <Link to="/News">News</Link>

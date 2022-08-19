@@ -1,55 +1,66 @@
-.docs-container{
-    background-color: #26272b;
+*{
+  list-style: none;
+}
+.docs-container {
+  background-color: #26272b;
   color: #f3f3f3;
   padding: 15px 120px;
   display: flex;
   flex-direction: row;
-  position: relative;
   padding-top: 50px;
 }
 
-.docs-menu{
-    column-width: 25%;
-    text-align: left;
-    position: sticky;
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
+.docs-menu {
+  column-width: 25%;
+  text-align: left;
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.docs-menu>ul>li{
-    list-style: none;
-    margin-top: 5px;
+li {
+  list-style: none;
+  margin-top: 8px;
 }
 
-.docs-main{
-    width: 75%;
-    text-align: left;
+.docs-main {
+  width: 75%;
+  text-align: left;
 }
 
-.docs-main >p{
-    margin-top: 30px;
-    font-size: 17px;
-    line-height: 1.7;
-    max-width: 42em;
+.docs-main > p {
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 42em;
 }
 
-.docs-main >h2{
-    margin-top: 30px;
-    line-height: 1.7;
-    max-width: 42em;
+.docs-main > h2 {
+  margin-top: 30px;
+  line-height: 1.7;
+  max-width: 42em;
 }
 
-.docs-main >h2{
-    margin-top: 30px;
-    line-height: 1.7;
-    max-width: 42em;
+.docs-main > h2 {
+  margin-top: 30px;
+  line-height: 1.7;
+  max-width: 42em;
 }
 
-.docs-main >h2::before{
-    content: " ";
-    display: block;
-    border-bottom: 1px solid #7b3fe4;
-    padding-top: 44px;
-    margin-bottom: 40px;
+.docs-main > h2::before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #7b3fe4;
+  padding-top: 44px;
+  margin-bottom: 40px;
+}
+
+.new{
+  background-color: #7b3fe4;
+  border-radius: 0.5rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 700;
 }
